@@ -2,11 +2,14 @@
 
 ;; constants
 (define cat .)
-(define c-height (image-height cat))
-(define c-width  (image-width cat))
+(define height (image-height cat))
+(define width  (image-width  cat))
 
-;; functions
-(define (tall-wide height width) (if (>= height width) "tall" "wide"))
+;;(define height (image-height(square 10 "solid" "red")))
+;;(define width  (image-width (square 10 "solid" "red")))
 
-(define (tall-wide-square height width) (if (= height width)  "square"
-                                        (if (>= height width) "tall" "wide") ))
+;; expressions
+(if (>= height width) "tall" "wide")
+
+(if (= height width) "square"
+    (if (>= height width) "tall" "wide"))

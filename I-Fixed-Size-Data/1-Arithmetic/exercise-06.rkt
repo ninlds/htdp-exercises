@@ -1,5 +1,6 @@
+(require 2htdp/image)
 ;; constant
 (define cat .)
 
-;; function
-(define cat-pixels (* (image-width cat) (image-height cat)))
+;; expression
+(* (image-width cat) (image-height cat))
