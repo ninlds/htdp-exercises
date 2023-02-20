@@ -1,4 +1,5 @@
 (require 2htdp/image)
+
 ;; constant
 (define cat .)
 
