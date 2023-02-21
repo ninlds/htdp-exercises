@@ -1,6 +1,6 @@
 ;; constants
 (define prefix "hello")
-(define sufix "world")
+(define suffix "world")
 
 ;; expression
-(string-append prefix "_" sufix)
+(string-append prefix "_" suffix)

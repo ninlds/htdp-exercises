@@ -3,4 +3,4 @@
 (define i 5)
 
 ;; expression
-(string-append (substring string 0 (- i 1)) (substring string i))
+(string-append (substring str 0 (- i 1)) (substring str i))
