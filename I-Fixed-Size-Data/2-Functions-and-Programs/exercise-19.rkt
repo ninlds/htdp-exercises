@@ -1,5 +1,5 @@
 ;; constants
-(define hello "hello")
+(define str "hello")
 
 ;; function
 (define (string-insert str i)
